@@ -11,3 +11,9 @@ SARTAJ dataset
 Br35H
 
 This dataset contains 7023 images of human brain MRI images which are classified into 4 classes: glioma - meningioma - no tumor and pituitary.
+
+# Proposed Algorithm
+	The following exploration introduces a Trilayer model approach which utilizes an early level abstraction better to identify and categorize mind malignancy by recognizing tumors in output images from the Brain Tumor dataset. The proposed method has the potential of outperforming novel methods by integrating the best part of each DeepLabV3+ and InceptionV3, which drastically improves tumours detection and classification.
+	Demonstrating the accuracy of brain tumour segmentation over existing models using stacking model with DeepLabV3+ for image segmentation of input scanned images from BraTS-2015 dataset,InceptionV3 for feature extraction and CNN for classification. We show that the proposed method outperforms existing models based on evaluation measures from the chosen dataset.
+	The Probability Density Function eliminates the memory issues that occur with the hybrid DeepLabV3+, InceptionV3 and CNN architecture
+	DeepLabV3+ arch tecure for image segmentation of input images to detect tumour either it is benevolented or malignant, using InceptionV3 (269 layers sinks deep CNN) architecture for feature extraction and classifying either positive Class based on contour points under Gantry totally methodologically classified with comparison against various methods related to diseased -- cancer detection field.
