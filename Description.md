@@ -20,3 +20,6 @@ Demonstrating the accuracy of brain tumour segmentation over existing models usi
 The Probability Density Function eliminates the memory issues that occur with the hybrid DeepLabV3+, InceptionV3 and CNN architecture
 
 DeepLabV3+ arch tecure for image segmentation of input images to detect tumour either it is benevolented or malignant, using InceptionV3 (269 layers sinks deep CNN) architecture for feature extraction and classifying either positive Class based on contour points under Gantry totally methodologically classified with comparison against various methods related to diseased -- cancer detection field.
+
+# Dataset
+[Brain Tumor Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
